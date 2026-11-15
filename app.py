@@ -26,17 +26,29 @@ if "chat_history" not in st.session_state:
 if "audit_completed" not in st.session_state:
     st.session_state.audit_completed = False
 
-# Minimalist Custom CSS (Fonts: Redaction 50 for headings, Space Grotesk for body + Green Gradient effect)
+# Minimalist Custom CSS (Background #002305, Sharp Corners, White Buttons, Custom Avatars, Space Grotesk)
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Redaction+50&display=swap');
     
-    html, body, [class*="css"] {
-        font-family: 'Space Grotesk', sans-serif;
+    /* Global Background and Typography */
+    html, body, [class*="css"], .stApp {
+        font-family: 'Space Grotesk', sans-serif !important;
+        background-color: #000000 !important;
+        color: #ffffff !important;
     }
     
-    /* Green Gradient Styling for All Headings */
+    /* Remove ALL Rounded Corners Globally */
+    *, *:before, *:after, 
+    .stButton button, .stTextArea textarea, .stTextInput input, 
+    div[data-baseweb="input"], div[data-baseweb="base-input"],
+    .stChatMessage, .stChatInputContainer, div.stContainer,
+    [data-testid="stVerticalBlock"] > div {
+        border-radius: 0px !important;
+    }
+    
+    /* Green Gradient Styling for Headings */
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Redaction 50', serif !important;
         letter-spacing: -0.02em;
@@ -46,28 +58,54 @@ st.markdown("""
         display: inline-block;
     }
     
-    /* Make main title even more prominent */
     h1 {
         font-size: 3.2rem !important;
         font-weight: 700;
     }
     
-    .stTextArea textarea {
-        font-family: 'Space Grotesk', sans-serif;
-        border-radius: 8px;
-        border: 1px solid #333333;
+    /* Sharp White Buttons */
+    .stButton button {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #ffffff !important;
+        font-weight: 600;
+        font-family: 'Space Grotesk', sans-serif !important;
+        width: 100%;
+    }
+    .stButton button:hover {
+        background-color: #e0e0e0 !important;
+        color: #000000 !important;
     }
     
-    .stButton button {
-        border-radius: 8px;
-        font-weight: 500;
-        width: 100%;
-        font-family: 'Space Grotesk', sans-serif;
+    /* Text Inputs & Textareas */
+    .stTextArea textarea, .stChatInput input {
+        background-color: #001403 !important;
+        color: #ffffff !important;
+        border: 1px solid #005515 !important;
+        font-family: 'Space Grotesk', sans-serif !important;
+    }
+    
+    /* Chatbox Text & Background */
+    .stChatMessage {
+        font-family: 'Space Grotesk', sans-serif !important;
+        background-color: #001904 !important;
+        border: 1px solid #004410 !important;
+        color: #ffffff !important;
+    }
+    
+    /* Custom Avatar Icon Colors (Robot = White, Human = #00E620) */
+    [data-testid="stChatMessageAvatarAssistant"] {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+    [data-testid="stChatMessageAvatarUser"] {
+        background-color: #00E620 !important;
+        color: #000000 !important;
     }
 </style>
 """, unsafe_allow_html=True)
 
-# Top Title Header (No subtitle, no custom toggle button)
+# Top Title Header
 st.markdown("# WatchdogAI")
 st.markdown("---")
 
