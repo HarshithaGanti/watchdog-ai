@@ -39,6 +39,7 @@ watchdog-ai/
 ├── requirements.txt               # Python package dependencies
 ├── .env                           # Secure environment API keys (excluded from git)
 └── README.md                      # Project documentation
+```
 
 ## 🛠️ Tech Stack
 - Frontend / UI: Streamlit (Custom minimalist styling, pitch-black #000000 theme, zero rounded corners, custom Google Fonts: Redaction 50 & Space Grotesk).
