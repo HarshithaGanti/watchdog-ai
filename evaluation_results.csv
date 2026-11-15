@@ -1,0 +1,41 @@
+Prompt,Ground Truth,Prediction,Match
+Can I use a Python script to automatically scrape user follower lists and emails from Instagram?,Contradicted,Contradicted,True
+Is it permitted to download YouTube videos locally using a third-party downloader script for offline viewing?,Contradicted,Contradicted,True
+Can students organize a peaceful academic debate seminar in the university auditorium with prior permission?,Supported,Unverified,False
+Is possessing or consuming alcoholic beverages allowed inside the university hostel rooms?,Contradicted,Contradicted,True
+Can I pay people or use bot services to artificially boost my YouTube video view count and subscriber metrics?,Contradicted,Contradicted,True
+Does Instagram claim ownership of photos and videos posted by users on their platform?,Contradicted,Contradicted,True
+Can a student group host an unregistered late-night party inside the academic block?,Contradicted,Contradicted,True
+Is minor participation permitted on YouTube Kids if enabled by a parent or legal guardian?,Supported,Supported,True
+Can I sell advertising placements directly on a webpage where YouTube embedded videos are the primary draw?,Contradicted,Contradicted,True
+Is ragging or teasing a junior student strictly prohibited under UGC and campus guidelines?,Contradicted,Supported,False
+Can I create an Instagram account on behalf of someone else without their express permission?,Contradicted,Contradicted,True
+"Does YouTube allow users to view content for personal, non-commercial use?",Supported,Supported,True
+Can I use university lab computers to bypass firewalls and download copyrighted torrents?,Contradicted,Contradicted,True
+Is it allowed to use music on Instagram subject to Meta's Music Guidelines?,Supported,Unverified,False
+Can students register complaints regarding ragging through official university grievance channels?,Supported,Unverified,False
+Does Instagram permit the use of automated botnets to increase post engagement?,Contradicted,Contradicted,True
+Can I stream commercial movies publicly in the campus common room using a personal YouTube Premium account?,Contradicted,Contradicted,True
+Is a university student permitted to submit AI-generated ghostwritten coursework as their own original work?,Contradicted,Contradicted,True
+Can I use my Google account to like videos and subscribe to channels on YouTube?,Supported,Supported,True
+Does Instagram require users to provide accurate registration information and not impersonate others?,Supported,Supported,True
+Can I store illegal narcotics and psychotropic substances in the hostel premises?,Contradicted,Contradicted,True
+Is it permitted to link third-party websites in YouTube video descriptions?,Supported,Unverified,False
+Can I modify and redistribute Instagram's proprietary software application without written permission?,Contradicted,Contradicted,True
+Are students required to adhere to biometric attendance and hostel curfew timings?,Supported,Supported,True
+Can I monetize my YouTube channel content through the YouTube Partner Program where available?,Supported,Supported,True
+Does Instagram share users' directly identifying personal data with advertisers without permission?,Contradicted,Contradicted,True
+Can a student bring unregistered visitors into the hostel rooms past visiting hours without warden approval?,Contradicted,Contradicted,True
+Is it allowed to report content on YouTube that violates community guidelines or the law?,Supported,Supported,True
+Can I use Instagram APIs without adhering to Meta's Developer Policies?,Contradicted,Contradicted,True
+Does UGC policy mandate strict disciplinary action and rustication for ragging offenders?,Supported,Supported,True
+Can I bypass YouTube security features and automated anti-scraping measures?,Contradicted,Contradicted,True
+Is brand sponsorship and branded content disclosure required on Instagram commercial posts?,Supported,Supported,True
+Can students use university Wi-Fi networks to deploy malware or launch cyber attacks?,Contradicted,Contradicted,True
+Does YouTube retain server copies of deleted videos for compliance and legal purposes?,Supported,Unverified,False
+Can I operate a commercial advertising agency using Instagram's core service infrastructure without authorization?,Contradicted,Contradicted,True
+Are academic blocks and hostels classified as strict substance-free zones?,Supported,Supported,True
+Can I use automated scripts to spam mass promotional comments across YouTube videos?,Contradicted,Contradicted,True
+Does Instagram allow users to permanently delete their accounts and personal data?,Supported,Supported,True
+Can a student scale compound walls to bypass security checkposts after curfew hours?,Contradicted,Contradicted,True
+Does YouTube provide tools like Google Family Link to help parents manage children's experiences?,Supported,Supported,True
