@@ -50,10 +50,30 @@ watchdog-ai/
 
 ## Setup & Installation Guide
 
-- Clone or Open Project: Open your project directory in VS Code or your local terminal.
+1. Clone or Open Project: Open your project directory in VS Code or your local terminal.
 
-- Install Dependencies: Make sure you have Python installed, then run:
+2. Install Dependencies: Make sure you have Python installed, then run:
 
 ```
 pip install -r requirements.txt
 ```
+3. Configure Your Environment Variables: Create a file named .env in the root directory and add your Google Gemini API key:
+   ```
+   GOOGLE_API_KEY=your_actual_gemini_api_key_here
+   ```
+4. Run the Streamlit Application: Launch the web interface locally:
+   ```
+   streamlit run app.py
+   ```
+---
+## 📊 Evaluation & Accuracy Testing
+To test system accuracy across the multi-domain synthetic dataset (40 test prompts covering Instagram, YouTube, UGC Campus norms, and Hostel rules):
+
+Run the automated evaluation script:
+```
+python report_generator.py
+```
+This script features built-in rate-limit protection (time.sleep) and checkpointing (evaluation_results.csv), allowing it to automatically resume if interrupted. It will output the overall accuracy score and generate your accuracy_chart.png demo slide asset.
+---
+## ⚖️ Disclaimer
+WatchdogAI is an AI-powered compliance auditing assistant. All generated audit reports and verdicts should be re-verified against official institutional policies and governing legal documents.
