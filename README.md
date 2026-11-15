@@ -73,7 +73,6 @@ Run the automated evaluation script:
 ```
 python report_generator.py
 ```
-This script features built-in rate-limit protection (time.sleep) and checkpointing (evaluation_results.csv), allowing it to automatically resume if interrupted. It will output the overall accuracy score and generate your accuracy_chart.png demo slide asset.
 ---
 ## ⚖️ Disclaimer
 WatchdogAI is an AI-powered compliance auditing assistant. All generated audit reports and verdicts should be re-verified against official institutional policies and governing legal documents.
